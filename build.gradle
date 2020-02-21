@@ -1,0 +1,10 @@
+// Sample Gradle file to print Hello Gradle
+
+description ="""
+  Example project for a Gradle build
+"""
+task build {
+    doLast {
+        println 'Hello Gradle'
+    }
+}
